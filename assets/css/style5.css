@@ -1,0 +1,45 @@
+body {
+    background-color:#DCE8CD;
+}
+
+#back {
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+#back-button:hover {
+    opacity: 0.5;
+}
+
+#title4 {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    width:800;
+    position: relative;
+    top:-70px;
+    left: 330px;
+    padding-top:20px;
+}
+
+#anti {
+    display: flex;
+    justify-content: center;
+    padding:15px;
+}
+
+.story {
+    display:flex;
+    height:450px;
+    justify-content: space-around;
+    padding:30px;
+}
+
+#text {
+    padding-left:100px;
+    padding-right:80px; 
+}

@@ -1,0 +1,118 @@
+body {
+    background-color:#DCE8CD;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  height: 70px;
+  padding:25px;
+}
+
+#back {
+  font-style: italic;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 35px;
+}
+
+#back-button:hover {
+  opacity: 0.5;
+}
+
+#title-list {
+    display:flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width:100%;
+}
+
+
+.container {
+    background: #F6F6ED;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    box-shadow: 0 4px 2px 1px rgba(0,0,0,0.05);
+    border-radius: 25px;
+  }
+  
+  h1 {
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li label {
+    width: 370px;
+    padding: 13px 0 13px 20px;
+  }
+
+  #toggleButton {
+    width: 200px;
+    display: block;
+    position: relative;
+    right: -450px;
+    margin: auto;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    color: #67523e;
+    padding: 10px 18px;
+    border-radius: 21px;
+    white-space: nowrap;
+    background-color: transparent;
+    background-image: radial-gradient(#67523e 0,#67523e 75%,transparent 0,transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 0 0;
+    background-position: 50% 50%; 
+    border: 1px solid #67523e;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  #toggleButton:hover {
+    color: #ebf6e0;
+    background-size: 105% 150%;
+  }
+  
+  /* dark mode styles - EDIT THESE!!!!
+  ------------------------------ */
+  
+  .dark-mode {
+    background: #958F8F;
+    color: black;
+  }
+  
+  .dark-mode .container {
+    background: #CCC5BB;
+  }
+  
+  .dark-mode h1 {
+    color: black;
+  }
+  
+  .dark-mode .highlighted-badge {
+    background: whitesmoke;
+    color: #000;
+  }
+  
+  .dark-mode .h1 {
+    font-style: italic;
+    text-align: center;
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+  }
+  
